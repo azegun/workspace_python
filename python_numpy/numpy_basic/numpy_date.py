@@ -30,4 +30,9 @@ print(time1 - time)
 
 print(h2 - h1)
 print(m2 - m1)
-print(s2 - s1)
+print(s2 - s1, end='\n\n')
+
+print("추석까지 남은 days(today = 2021-07-26)")
+time_tanks_Gday = np.datetime64('2021-09-21')
+today = np.datetime64('2021-07-26')
+print(time_tanks_Gday-today)
