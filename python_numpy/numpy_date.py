@@ -15,3 +15,19 @@ arr3 = arr1.reshape(4, 4, 4)
 print("=========reshape=======")
 print(arr3, end='\n\n')
 print("arr3 3차원 배열 shape>> ", arr3.shape)
+
+h1 = np.datetime64('2021-07-26 12')   # 시간까지
+h2 = np.datetime64('2021-07-27 12')
+m1 = np.datetime64('2021-07-26 12:00') # 분까지
+m2 = np.datetime64('2021-07-27 12:00')
+s1 = np.datetime64('2021-07-26 12:00:00') # 초까지
+s2 = np.datetime64('2021-07-27 12:00:00')
+
+time = np.datetime64('2021-06-21 12:00:00')
+time1 = np.datetime64('2021-07-26 12:30:00')
+
+print(time1 - time)
+
+print(h2 - h1)
+print(m2 - m1)
+print(s2 - s1)
