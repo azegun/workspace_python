@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../workspace_python1/python-cv2-streams-viewer/.idea/python-cv2-streams-viewer.iml" filepath="$PROJECT_DIR$/../workspace_python1/python-cv2-streams-viewer/.idea/python-cv2-streams-viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python_numpy/.idea/python_numpy.iml" filepath="$PROJECT_DIR$/python_numpy/.idea/python_numpy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/workspace_python.iml" filepath="$PROJECT_DIR$/.idea/workspace_python.iml" />
     </modules>
   </component>
