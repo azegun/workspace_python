@@ -5,7 +5,7 @@ print(arr2, end='\n\n')
 
 # 2번쨰 배열까지 100으로 수정
 arr2[0, :3] = 100
-print(arr2)
+print(arr2, end='\n\n')
 
 arr1 = np.arange(10)
 print(arr1, end='\n\n')

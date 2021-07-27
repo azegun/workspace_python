@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./pandas_doit_basic/data/gapminder.tsv', sep='\t')
+df = pd.read_csv('../pandas_doit_basic/data/gapminder.tsv', sep='\t')
 print(df.columns, end='\n\n')
 print("------------country----------")
 print(df['country'], type(df['country']), end='\n\n')
