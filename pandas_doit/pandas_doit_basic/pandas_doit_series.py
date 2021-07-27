@@ -11,6 +11,7 @@ data = {'NAME': ['태연', '제니', '유주'],
         'BORN': ['1989-03-09', '1996-01-16', '1997-10-04'],
         'AGE': [33, 26, 25],
         'COMPANY': ['SM', 'YG', 'S_M']}
+
 index = ['1번', '2번', '3번']
 make_DateFrame = pd.DataFrame(data=data, index=index)
 print(make_DateFrame)
