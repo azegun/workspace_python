@@ -67,4 +67,4 @@ print("레이블을 범주형으로 원핫 인코딩 전", train_labels.shape, p
 train_labels = to_categorical(train_labels)
 print("레이블을 범주형으로 원핫 인코딩 후", train_labels.shape, pd.DataFrame(train_labels).head(), sep='\n', end='\n\n')
 
-test_labels = to_categorical(test_labels
+test_labels = to_categorical(test_labels)
